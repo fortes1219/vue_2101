@@ -1,0 +1,28 @@
+{
+    "tableApi": [
+      {
+        "id": "009",
+        "name": "LEON",
+        "class": "Police(R.P.D)",
+        "date": "2019-12-02 00:00:00"
+      },
+      {
+        "id": "001",
+        "name": "Claire",
+        "class": "Survivor",
+        "date": "2019-12-25 15:04:48"
+      },
+      {
+        "id": "002",
+        "name": "Tyrant-002",
+        "class": "B.O.W.",
+        "date": "2019-12-26 00:00:00"
+      },
+      {
+        "id": "008",
+        "name": "Jack",
+        "class": "Developer(Jr.)",
+        "date": "2020-08-10 20:00:00"
+      }
+    ]
+  }

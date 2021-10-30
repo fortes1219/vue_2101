@@ -1,0 +1,13 @@
+.tabs {
+    @include flexBox(row, center, flex-start);
+    .tabs_item {
+        display: block;
+        color: #fff;
+        background: #666;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        &:hover {
+            background: lighten($color: #666, $amount: 10);
+        }
+    }
+}
