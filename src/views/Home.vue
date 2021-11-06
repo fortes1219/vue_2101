@@ -1,6 +1,8 @@
 <template>
-  <div class="row vertical" data-inset="1rem">
+  <div class="row horizontal v_center" data-inset="1rem">
+    <el-button :class="buttonStatus" :disabled="checkApi" type="primary" @click="callApi">Call API</el-button>
     <el-button type="primary" @click="callApi">Call API</el-button>
+    <el-button @click="tableData = []">clear API</el-button>
   </div>
 </template>
 
@@ -17,8 +19,15 @@ export default {
     }
   },
   computed: {
-    listener () {
-      return this.tableData
+    checkApi () {
+      if (this.tableData.length === 0) {
+        return true
+      } else {
+        return false
+      }
+    },
+    buttonStatus () {
+      return this.tableData.length === 0 ? 'noShow' : ''
     }
   },
   methods: {
@@ -29,5 +38,20 @@ export default {
       console.log(res, this.tableData)
     },
   },
+  created () {
+    console.log('in created')
+    this.callApi()
+  },
+  mounted () {
+
+  },
+  beforeDestroy () {
+
+  },
 }
 </script>
+<style lang="scss">
+.noShow {
+  display: none;
+}
+</style>
