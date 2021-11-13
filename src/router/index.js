@@ -8,6 +8,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/restful_api',
+    name: 'restful_api',
+    component: () => import('../views/RestfulApi.vue')
   }
 ]
 
