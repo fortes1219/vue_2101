@@ -18,7 +18,12 @@ const routes = [
     path: '/vuex',
     name: 'vuex',
     component: () => import('../views/Vuex.vue')
-  }
+  },
+  {
+    path: '/form',
+    name: 'form',
+    component: () => import('../views/form.vue')
+  },
 ]
 
 const router = new VueRouter({
