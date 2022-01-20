@@ -24,6 +24,11 @@ const routes = [
     name: 'form',
     component: () => import('../views/form.vue')
   },
+  {
+    path: '/i18n',
+    name: 'i18n',
+    component: () => import('../views/i18n.vue')
+  },
 ]
 
 const router = new VueRouter({

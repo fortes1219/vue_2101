@@ -25,6 +25,7 @@ module.exports = {
         src: path.resolve('src'),
         utils: path.resolve('src/utils'),
         styles: path.resolve('src/styles'),
+        lang: path.resolve('src/lang'),
         assets: path.resolve('src/assets'),
         components: path.resolve('src/components'),
         services: path.resolve('src/services'),
