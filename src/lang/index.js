@@ -34,6 +34,7 @@ const locale = getLocale()
 const setI18nLanguage = (lang) => {
   i18n.locale = lang
   cookie.setLanguage(lang)
+  console.log('###set lang: ', lang)
   return lang
 }
 

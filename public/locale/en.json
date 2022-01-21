@@ -5,5 +5,7 @@
   "please_select": "please select",
   "locale_en": "English",
   "locale_zh_tw": "Chinese(Traditional)",
-  "locale_jp": "Japenese"
+  "locale_jp": "Japenese",
+  "call_api": "Call API",
+  "clear_api": "Clear API"
 }

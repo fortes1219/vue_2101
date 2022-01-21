@@ -1,8 +1,8 @@
 <template>
   <div class="row horizontal v_center" data-inset="1rem">
-    <el-button :class="buttonStatus" :disabled="checkApi" type="primary" @click="callApi">Call API</el-button>
-    <el-button type="primary" @click="callApi">Call API</el-button>
-    <el-button @click="tableData = []">clear API</el-button>
+    <el-button :class="buttonStatus" :disabled="checkApi" type="primary" @click="callApi">{{ $t('call_api') }}</el-button>
+    <el-button type="primary" @click="callApi">{{ $t('call_api') }}</el-button>
+    <el-button @click="tableData = []">{{ $t('clear_api') }}</el-button>
   </div>
 </template>
 

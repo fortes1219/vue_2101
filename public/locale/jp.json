@@ -5,5 +5,7 @@
   "please_select": "言語を選んでください",
   "locale_en": "英語",
   "locale_zh_tw": "中国語(台湾)",
-  "locale_jp": "日本語"
+  "locale_jp": "日本語",
+  "call_api": "APIをコール",
+  "clear_api": "APIを消去"
 }
