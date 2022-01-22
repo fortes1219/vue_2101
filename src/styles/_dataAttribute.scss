@@ -10,6 +10,12 @@
     }
 }
 
+@for $i from 0 through 100 {
+    [data-width="#{$i * 0.5rem}"] {
+        width: $i * 0.5rem;
+    }
+}
+
 $direction: "all", "left", "right", "top", "bottom", "horizontal", "vertical";
 
 @each $currentDirection in $direction {
