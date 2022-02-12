@@ -1,0 +1,14 @@
+.theme-2 {
+    .block {
+        @include flexBox(column, flex-start, flex-start);
+        span {
+            @include flexBox(row, center, center);
+            width: 120px;
+            height:60px;
+            border-radius: 4px;
+            border: 1px solid #f0f0f0;
+            color: #fff;
+            background-color: rgba(0,0,0,0.6);
+        }
+    }
+}

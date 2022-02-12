@@ -106,6 +106,9 @@
         justify-content: space-evenly;
     }
 
+    &.grow {
+        height: 100%;
+    }
 
     &.wrap {
         flex-wrap: wrap;

@@ -29,6 +29,11 @@ const routes = [
     name: 'i18n',
     component: () => import('../views/i18n.vue')
   },
+  {
+    path: '/is_components',
+    name: 'isComponents',
+    component: () => import('../views/isComponents.vue')
+  },
 ]
 
 const router = new VueRouter({
